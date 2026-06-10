@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#2C3E50"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnMenuLatihan1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:text="Buka Latihan 1"
+        android:textAllCaps="false"
+        android:backgroundTint="#5C5EDD"
+        app:cornerRadius="30dp" />
+
+    <Button
+        android:id="@+id/btnMenuLatihan2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:text="Buka Latihan 2"
+        android:textAllCaps="false"
+        android:backgroundTint="#5C5EDD"
+        app:cornerRadius="30dp" />
+
+    <Button
+        android:id="@+id/btnMenuLatihan3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:text="Buka Latihan 3"
+        android:textAllCaps="false"
+        android:backgroundTint="#5C5EDD"
+        app:cornerRadius="30dp" />
+
+    <Button
+        android:id="@+id/btnMenuLatihan4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:text="Buka Latihan 4"
+        android:textAllCaps="false"
+        android:backgroundTint="#5C5EDD"
+        app:cornerRadius="30dp" />
+    <Button
+        android:id="@+id/btnMenuLatihan5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Buka Latihan 5"
+        android:textAllCaps="false"
+        android:backgroundTint="#5C5EDD"
+        app:cornerRadius="30dp" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Latihan2">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Latihan 2 - Merubah Warna Button"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Pilih : "
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/rgKategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:paddingStart="10dp">
+
+        <RadioButton
+            android:id="@+id/rbOpsi1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biru"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rbOpsi2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Merah"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rbOpsi3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hijau"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btProsesLat2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#5C5EDD"
+        android:text="Proses"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:cornerRadius="30dp" />
+
+</LinearLayout>
